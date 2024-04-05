@@ -13,7 +13,9 @@ Hunters Era is an exciting text RPG where players embark on epic quests, battle 
 
 ## How to Play
 
-1. **Clone the Repository:** Clone this repository to your local machine using Git.
+1. Download latest build from releases. 
+
+2. **Clone the Repository:** Clone this repository to your local machine using Git to view and edti the code.
 
 ```bash
 git clone https://github.com/swordRanger/Hunters-Era.git
