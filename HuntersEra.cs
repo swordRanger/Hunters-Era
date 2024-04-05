@@ -1,5 +1,5 @@
 ﻿/*
- * Author: miyagamu
+ * Author: swordRanger (Alias)
  * Date: 1 April 2024 (Created)
  * Game Name: Hunter's Era
  * Description: A text RPG. Idk if it'll be good but I hope it'll be playable.
