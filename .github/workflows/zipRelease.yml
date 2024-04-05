@@ -18,7 +18,7 @@ jobs:
       - name: Zip Release Folder
         run: |
           cd bin/Release/net8.0  # Change directory to your release folder
-          zip -r hunters_era.zip .  # Create zip named "hunters_era.zip"
+          zip -j hunters_era.zip .  # Create zip named "hunters_era.zip"
 
       - name: Create Release
         uses: actions/create-release@v1
@@ -26,8 +26,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           tag_name: v0.0.1 # Use commit SHA as tag
-          release_name: Hunters Era Release ( ${{ github.sha }} )
-          body: ${{ github.sha }}  # Optional release description
+          release_name: Hunters Era Release 0.0.1
           draft: false  # Set to true for draft releases
           prerelease: false  # Set to true for pre-releases
           file: bin/Release/net8.0/hunters_era.zip  # Path to your zip
