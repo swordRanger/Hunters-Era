@@ -15,6 +15,8 @@ Hunters Era is an exciting text RPG where players embark on epic quests, battle 
 
 1. Download latest build from releases. 
 
+OR
+
 2. **Clone the Repository:** Clone this repository to your local machine using Git to view and edti the code.
 
 ```bash
